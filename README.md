@@ -30,8 +30,8 @@ To handle large files:
 
 ## Project clone
 ```
-git clone https://github.com/
-cd tech_assessment
+git clone https://github.com/btechspects/Tech-assessment.git
+cd Tech-assessment
 ```
 
 ## Project setup
@@ -52,12 +52,12 @@ npm run start
 
 ### Endpoints & Parameters
 #### POST /data/ingest
-Collect data from AWS S3.
+- Collect data from AWS S3.
 
 #### GET /data?
 - Full or partial match queries on attributes like `city`, `country`, etc.
 - Boolean filters (e.g., `isAvailable`)
-- Numeric range filters via `priceForNight=1000-5000`
+- Numeric range filters via `priceForNight=1-5000`
 
 ### Run Unit Tests
 ```
